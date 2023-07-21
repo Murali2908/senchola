@@ -1,0 +1,86 @@
+body{
+    background: url(cake.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    
+}
+nav ul{
+    display: flex;
+    padding-left: 500px;
+
+}
+#corner{
+    color: rgb(15, 248, 50);
+    border-style: solid;
+    background-color: teal;
+    padding: 7px;
+    border: 5px blue;
+    border-color: blanchedalmond;
+    
+}
+nav ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+ul li a:hover{
+    background-color: teal;
+    padding: 10px;
+    border-radius: 30px;
+}
+nav{
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-around;
+}
+#last{
+    float:left;
+    background-color: rgb(233, 128, 128);
+    padding: 5px;
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.new{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    padding-left: 30px;
+    font-size: 20px;
+
+}
+#bor{
+    color: black;
+    border-style:solid;
+    border-color: rgb(255, 255, 255);
+    padding: 7px;    
+    background-color: rgb(13, 228, 232);
+    
+}
+#bor:hover{
+    background-color:none;
+}
+
+section ul {
+    
+    display: flex;
+    font-style: italic;
+
+    
+}
+
+section{
+    border-style: solid;
+    background-color:rgb(15, 11, 11) ;
+    border-radius: 20px;
+        
+}
+
+
+section ul li{
+    
+    list-style-type: none;
+    padding: 16px;
+}
+
